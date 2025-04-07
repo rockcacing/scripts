@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# bash <(wget -qO- https://your-url.com/setup-rpi.sh)
+# bash <(wget -qO- https://raw.githubusercontent.com/rockcacing/scripts/refs/heads/main/setup_rpi.sh)
 
 LOGFILE="/var/log/raspi-setup.log"
 exec > >(tee -a "$LOGFILE") 2>&1
